@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity" 
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/login_TXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_Edit"
+        android:layout_alignParentTop="true"
+        android:text="SMU Id" />
+    <EditText
+        android:id="@+id/login_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_TXT"
+        android:width="200dp"
+        />
+    <TextView
+        android:id="@+id/pass_TXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/login_Edit"
+        android:layout_below="@id/login_Edit"
+        android:text="Password" />
+    <EditText
+        android:id="@+id/pass_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pass_TXT"
+        android:width="200dp"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check My Classes!"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pass_Edit"
+        />
+    
+
+</RelativeLayout>
