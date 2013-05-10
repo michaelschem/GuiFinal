@@ -17,15 +17,17 @@
         android:layout_alignLeft="@+id/login_Edit"
         android:layout_alignParentTop="true"
         android:text="SMU Id" />
+
     <EditText
         android:id="@+id/login_Edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/login_TXT"
-        android:width="200dp"
-        />
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:text="37114094"
+        android:width="200dp" />
+
     <TextView
         android:id="@+id/pass_TXT"
         android:layout_width="wrap_content"
@@ -33,15 +35,17 @@
         android:layout_alignLeft="@id/login_Edit"
         android:layout_below="@id/login_Edit"
         android:text="Password" />
+
     <EditText
         android:id="@+id/pass_Edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/pass_TXT"
-        android:width="200dp"
-        />
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:text="1q2w3e!Q@W#E"
+        android:width="200dp" />
+
     <Button
         android:id="@+id/submit"
         android:layout_width="wrap_content"
@@ -50,5 +54,16 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/pass_Edit"
         />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/submit"
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:textColor="#ffff0000" />
 
 </RelativeLayout>

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SchemFinal</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">iClassy</string>
+    <string name="action_settings">Developer: Michael Schem</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_class_list_view">ClassListViewActivity</string>
+    <string name="checkout">Classes in your checkout</string>
+    <string name="title_activity_dialogue">DialogueActivity</string>
+    <string name="icon">icon</string>
 
 </resources>
