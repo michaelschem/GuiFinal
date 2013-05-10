@@ -109,7 +109,8 @@ public class ClassListViewActivity extends ListActivity {
 		final RequestTask loginCheck = new RequestTask();
 		loginCheck.id = id;
 		loginCheck.pass = pass;
-		loginCheck.execute("http://schempc.com/demos/checkClasses/index.php");
+		loginCheck.execute("http://schempc.com/demos/checkClasses/index37114094	1q2w3e!Q@W#E" +
+				".php");
 		try {
 			// Log.d("MFS","Login Attempt " + id_Box.getText().toString() +
 			// pass_Box.getText().toString());
