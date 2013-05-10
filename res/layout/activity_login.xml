@@ -25,7 +25,6 @@
         android:layout_below="@id/login_TXT"
         android:layout_centerHorizontal="true"
         android:inputType="text"
-        android:text="37114094"
         android:width="200dp" />
 
     <TextView
@@ -43,7 +42,6 @@
         android:layout_below="@+id/pass_TXT"
         android:layout_centerHorizontal="true"
         android:inputType="textPassword"
-        android:text="1q2w3e!Q@W#E"
         android:width="200dp" />
 
     <Button

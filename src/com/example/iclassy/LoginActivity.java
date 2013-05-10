@@ -109,7 +109,7 @@ public class LoginActivity extends Activity {
             		final EditText pass_Box = (EditText)findViewById(R.id.pass_Edit);
                 	loginCheck.id = id_Box.getText().toString();
                     loginCheck.pass = pass_Box.getText().toString();
-                    loginCheck.execute("http://schempc.com/demos/checkClasses/test.php");
+                    loginCheck.execute("http://schempc.com/demos/checkClasses/index.php");
                     try {
                     	//Log.d("MFS","Login Attempt " + id_Box.getText().toString() + pass_Box.getText().toString());
             			if(loginCheck.get() != null){
